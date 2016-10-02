@@ -1,0 +1,22 @@
+Using drawtag_bc
+
+drawtag_bc is a script which uses functions of drawtag to provide simple interface. It has a few commands and it also saves/loads tags when it stops/starts. You can use it to test the Drawtag script.
+
+drawtag_bc commands
+  /draw: toggles the visibility of drawing window
+  /drawtag: enables drawing mode
+  /erasetag: enables erasing mode
+  /tagsize new_tag_size: changes the size of the tag to new_tag_size
+  /copytag: copies the texture of a nearby existing tag to the next tag you will draw
+  /edittag: copies the texture of a nearby existing tag to the drawing window
+
+Using drawtag in game
+
+-In the drawing window, the big checkered square is the drawing area which you can draw on by pressing the left mouse button.
+-To select another color, click one in the palette under the drawing area.
+-To modify palette color or brush size, use horizontal bars on the right of the drawing window. Left mouse button changes them accurately, while right mouse button snaps them to a rounded value.
+-To clear everything from the drawing square, press 'Clear' button.
+-To copy the texture from drawing area to your next tag, press 'Done' button.
+-To close the drawing window, press 'Close' button.
+-To draw the tag on the surface, spray on it using the spray can while the drawing mode is enabled.
+-To erase the tag, spray on it using the spray can while the erasing mode is enabled.

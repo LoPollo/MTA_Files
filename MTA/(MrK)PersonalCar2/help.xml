@@ -1,0 +1,16 @@
+<help title="Car saving" popup="no">
+Cmds:
+/scar [slot_name]
+/lcar [slot_name]
+/dcar [slot_name]
+/lscars
+
+Keys:
+F6: lscars equivalent
+
+Desc:
+scar is used to save a car, its mods and its color (not lights) to a slot
+lcar is used to spawn a saved car from the specified slot
+dcar is used to delete a slot (scar doesn't overwrite)
+lscars list the cars saved
+</help>

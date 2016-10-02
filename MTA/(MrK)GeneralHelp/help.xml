@@ -1,0 +1,58 @@
+<help title="General" popup="yes">
+These are general tips that you should read:
+
+"/sCarReflect" to switch the car reflection
+"/8bit" to switch the 8bit gfx
+"/radialblur" to toggle the effect when you move. An short variant is avaible: /rb
+"/svd [number]" to Set View Distance
+"/sit" to... well, use them and you'll see
+"/sBloom" to switch bloom
+
+F1 for freeroam menu... lol
+F4 to show/hide the iphone (youtube)
+
+* Rhino takes damage from explosions, so watch out for RPGs and other tanks :D
+* As you probably already know there are safes areas: no more spawnkill!
+* You can save e spawn cars (check personal cars)
+* The stats are already maxed out
+* A modification of Vreload is active (Rhino, Hunter, Hydra cooldowns, Rhino different shooting system)
+* Freeroam has gravity and gamespeed disabled, setting skin won't reset health, also the veh repair is disabled
+* There is a mod called "glue": press x to stick to a vehicle!
+* There are some cars' models overwritten: Andromada, AT-400, DFT-30, Barracks.
+
+Make sure you check the other tabs too!
+
+PS: this server has Dynamic IP: use filters in the server list or connect using the quick connect:
+* mtasa://merottomirko.mynetgear.com:22003
+
+
+
+It could be a bit time-consuming, but it's recommended to read the following list.
+Here's some of the resources active here:
+
+upgradestats 		--Max stats by default
+personalcar 		--Save and load saved car
+vreload 			--Rhino aiming system
+iphone (youtube)	--F4 to youtube your favourite songs
+tankdamage 			--Rhino get hurt by explosion
+greenzone 			--Anti spawn kill (not vehs)
+realdriveby 		--Default resource, here's active
+paynspray 			--Some paynspray are open here!
+foodshop 			--You can refill your health by buying food (despite the imgs it's free)
+kwkchaticon 		--A phone will popup when u're chatting. The more msgs u sent the nice the phone
+carreflect 			--/sCarReflect will show you what this is
+regen 				--Health and armor auto regen!
+8bit 				--/8bit to switch to 8bit gfx
+glue 				--Press x to stick to a vehicle
+heligrab 			--Don't drop!
+yttheatre 			--Type /yt to choose the video to play while in the Astro drive-in cinema
+drawtag 			--Let's spray some walls! See dedicated tab for help
+cvehicle 			--Use /cveh to open vehs doors
+VDistance 			--Use /svd to set you view distance (default: ~800)
+nyancat 			--Use /nyan to switch. Modified version of the epic resource --buggy
+newarea51gate 		--Area 51 gates now open!
+shader_bloom_fix 	--Use /sBloom to switch bloom on/off
+i_fps 				--If you want to see how many FPS do you have, then type /fps in chat. It can also be moved
+helicopterrope		--Press 5 to drop a rope with which you can go down!
+ferriswheel			--Hint: go to Santa Maria Beach
+</help>
