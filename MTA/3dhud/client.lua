@@ -75,11 +75,13 @@ magazines = {
 }
 --\\
 local function dxDrawTextBordered(text,x,y,tx,ty, color, size, font,right,top, clip, wordBreak, postGUI,colorCoded, subPixelPositioning)
-	dxDrawText(text,x-1,y,tx-1,ty, tocolor(0, 0, 0, 255), size, font,right,top, clip, wordBreak, postGUI,colorCoded, subPixelPositioning)
-	dxDrawText(text,x,y-1,tx,ty-1, tocolor(0, 0, 0, 255), size, font,right,top, clip, wordBreak, postGUI,colorCoded, subPixelPositioning)
-	dxDrawText(text,x+1,y,tx+1,ty, tocolor(0, 0, 0, 255), size, font,right,top, clip, wordBreak, postGUI,colorCoded, subPixelPositioning)
-	dxDrawText(text,x,y+1,tx,ty+1, tocolor(0, 0, 0, 255), size, font,right,top, clip, wordBreak, postGUI,colorCoded, subPixelPositioningpo)
-	dxDrawText(text,x,y,tx,ty, color, size, font,right,top)
+	local sWidth,sHeight = guiGetScreenSize() -- The variables
+	local size2 = size / 768 * sHeight;
+	dxDrawText(text,x-1,y,tx-1,ty, tocolor(0, 0, 0, 255), size2, font,right,top, clip, wordBreak, postGUI,colorCoded, subPixelPositioning)
+	dxDrawText(text,x,y-1,tx,ty-1, tocolor(0, 0, 0, 255), size2, font,right,top, clip, wordBreak, postGUI,colorCoded, subPixelPositioning)
+	dxDrawText(text,x+1,y,tx+1,ty, tocolor(0, 0, 0, 255), size2, font,right,top, clip, wordBreak, postGUI,colorCoded, subPixelPositioning)
+	dxDrawText(text,x,y+1,tx,ty+1, tocolor(0, 0, 0, 255), size2, font,right,top, clip, wordBreak, postGUI,colorCoded, subPixelPositioningpo)
+	dxDrawText(text,x,y,tx,ty, color, size2, font,right,top)
 end
 
 addEventHandler( "onClientResourceStart", resourceRoot,
