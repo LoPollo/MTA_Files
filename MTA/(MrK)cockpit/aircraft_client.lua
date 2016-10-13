@@ -129,8 +129,8 @@ function CheckForAircraftEnter(thePlayer, seat)
 	if vehType == "Plane" or vehType == "Helicopter" and thePlayer == getLocalPlayer() then-- and seat == 0 then
 		lastVehicle = "Plane"
 		theAircraft = theVehicle
-		local driver = getVehicleOccupant ( theVehicle, 0 )
-		if (driver == getLocalPlayer()) then
+		--local driver = getVehicleOccupant ( theVehicle, 0 )
+		--if (driver == getLocalPlayer()) then
 			addEventHandler("onClientRender",getRootElement(),renderAircraftFX)
 			local posx, posy, posz = getElementPosition(theVehicle)
 			PlaneCurrentPosz = posz
@@ -138,12 +138,12 @@ function CheckForAircraftEnter(thePlayer, seat)
 			z6 = 0
 			oldvario = 0
 			checkVariometer()
-		end
+		--end
 	end
 end
 addEventHandler("onClientVehicleEnter",getRootElement(),CheckForAircraftEnter)
 function CheckForAircraftExit(thePlayer, seat)
-	if lastVehicle == "Plane" and thePlayer == getLocalPlayer() and seat == 0 then
+	if lastVehicle == "Plane" and thePlayer == getLocalPlayer() then-- and seat == 0 then
 		removeEventHandler("onClientRender", getRootElement(), renderAircraftFX)
 	end
 end
